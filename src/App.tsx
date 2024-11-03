@@ -33,7 +33,6 @@ function App(): JSX.Element {
           onSubmit={addMemo}
         />
       </div>
-
       <MemoList memos={memos} setMemos={setMemos} />
     </Layout>
   );
